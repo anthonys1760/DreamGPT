@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/DreamGPT/static/css/main.8704a12b.css",
+    "main.js": "/DreamGPT/static/js/main.f435820a.js",
+    "static/media/bot.ico": "/DreamGPT/static/media/bot.6f18a81c2474a6b2f7d5.ico",
+    "index.html": "/DreamGPT/index.html",
+    "main.8704a12b.css.map": "/DreamGPT/static/css/main.8704a12b.css.map",
+    "main.f435820a.js.map": "/DreamGPT/static/js/main.f435820a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8704a12b.css",
+    "static/js/main.f435820a.js"
+  ]
+}
