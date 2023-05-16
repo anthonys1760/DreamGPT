@@ -1,16 +1,17 @@
 {
-  "name": "chatgpt",
+  "homepage": "https://anthonys1760.github.io/DreamGPT/",
+  "name": "DreamGPT",
   "version": "2.0.0",
   "private": true,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/eyucoder/chatgpt-clone"
-  },
-  "author": {
-    "name": "eyucoder",
-    "email": "eyueldaniel0921@gmail.com",
-    "url": "https://github.com/eyucoder"
-  },
+  // "repository": {
+  //   "type": "git",
+  //   "url": "https://github.com/eyucoder/chatgpt-clone"
+  // },
+  // "author": {
+  //   "name": "eyucoder",
+  //   "email": "eyueldaniel0921@gmail.com",
+  //   "url": "https://github.com/eyucoder"
+  // },
   "dependencies": {
     "bad-words": "^3.0.4",
     "daisyui": "^2.51.6",
@@ -26,6 +27,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -49,6 +52,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.20",
     "tailwindcss": "^3.2.4"
   },
